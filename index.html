@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+  <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        fontFamily: {
+          sans: ["Roboto", "sans-serif"],
+          body: ["Roboto", "sans-serif"],
+          mono: ["ui-monospace", "monospace"],
+        },
+      },
+      corePlugins: {
+        preflight: false,
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>tailwind</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <section class="Navbar">
+    <div class="container mx-auto">
+      <nav class="p-4">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only" >Open main menu</span>
+            
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-shrink-0 items-center">
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch md:justify-end">
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex  space-x-4 flex-row-reverse ">
+                  <a href="#" class="bg-orange-500  text-white md:rounded-full md:px-8 md:py-3 text-sm font-medium hover:bg-slate-950 transition-all sm:p-2 ml-6 sm:rounded-md" aria-current="page">Call Me</a>
+                  <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition-all">Social</a>
+                  <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition-all">Contact</a>
+                  <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition-all">About</a>
+                  <a href="#" class="text-black-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium transition-all">Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+           
+      
+          
+            </div>
+          </div>
+        </div>
+      
+        <div class="sm:hidden    w-full flex justify-center "   id="mobile-menu">
+          <div class=" px-2 pb-3 pt-2   space-y-4 w-3/4">
+            <a href="#" class="bg-orange-500 text-white block rounded-full px-3 py-2 text-base font-medium hover:bg-slate-950 transition-all" >Call Me</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Social</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Portfolio</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- End Navbar -->
+
+  <!-- Header -->
+  <section class="Header ">
+    <div class="container mx-auto">
+      <div class="flex flex-row justify-center mt-8 gap-10 ">
+        <div class="flex flex-col space-y-8 mt-24 w-3/4  ">
+          <h1 class="text-5xl text-gray-800  font-bold">Rapidly build modern websites without ever leaving your HTML.</h1>
+          <p class="max-w-lg ">A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.</p>
+          <button class="button bg-orange-500 text-white rounded-full py-3 hover:bg-slate-950 transition-all w-1/4">Get Started</button>
+        </div>
+        <div class="img md:w-3/4">
+          <img class="img-conent " src="images/undraw_learning_sketching_nd4f.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Best practices -->
+  <section class="Best practices mt-24">
+    <div class="container mx-auto  ">
+      <div class="title  flex flex-col text-center text-gray-900  max-w-7xl">
+        <h1 class="text-4xl font-bold ">“Best practices” don’t actually work.</h1>
+        <p class=" mt-8 mx-auto w-3/4">I’ve written a few thousand words on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way.</p>
+
+      </div>
+
+      <div class="carts flex flex-row justify-center mt-24 gap-10 text-center">
+        <div class="bg-gray-200 p-2   leading-9  flex flex-col items-center bg-gray-200 hover:bg-white border hover:border-gray-200 transition-all">
+          <img src="images/adam.jpg" class="rounded-full object-contain -mt-12 " alt="">
+          <div class="cart-header">
+            <h1 class="font-bold text-1xl my-3">Adam Sandler</h1>
+            <p>The way I wrote it changed frequently. It’s not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you’ll realize semantic CSS was a 20 year mistake.</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 p-2   leading-9  flex flex-col items-center bg-gray-200 hover:bg-white border hover:border-gray-200 transition-all">
+          <img src="images/madeline.jpg" class="rounded-full object-contain  w-20 -mt-12 " alt="">
+          <div class="cart-header">
+            <h1 class="font-bold text-1xl my-3">Madeline Bauer</h1>
+            <p>The way I wrote it changed frequently. It’s not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you’ll realize semantic CSS was a 20 year mistake.</p>
+          </div>
+        </div>
+        <div class="bg-gray-200 p-2   leading-9  flex flex-col items-center bg-gray-200 hover:bg-white border hover:border-gray-200 transition-all">
+          <img src="images/marcel.jpg" class="rounded-full object-contain -mt-12 " alt="">
+          <div class="cart-header">
+            <h1 class="font-bold text-1xl my-3">Marcel Khalifa</h1>
+            <p>The way I wrote it changed frequently. It’s not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you’ll realize semantic CSS was a 20 year mistake.</p>
+          </div>
+        </div>
+    
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Best practices -->
+
+  <!-- Move even -->
+<section class="Move even mt-24  w-full bg-orange-500 py-12">
+<div class="container mx-auto">
+  <div class="flex flex-row justify-between  ">
+    <div>
+      <h1 class="font-bold text-3xl text-white">Move even faster with Tailwind UI.</h1>
+    </div>
+    <div>
+      <button class="px-4 py-2 text-orange-500 bg-orange-500 hover:bg-slate-950 transition-all bg-white rounded-full">Start Here</button>
+    </div>
+  </div>
+</div>
+</section>
+  <!-- End Move even -->
+
+  <!-- Footer -->
+<section class="footer bg-slate-950 py-12">
+
+<div class="grid grid-cols-4 space-y-10 container mx-auto text-center">
+   <div class="space-y-8">
+    <p class="text-white text-left">Copyright © 2023, All Rights Reserved</p>
+    <img src="images/logo-dark.png" class="w-3/4" alt="">
+    <div class="social flex gap-6">
+      <i class="fa-brands fa-facebook text-white text-2xl"></i>
+      <i class="fa-brands fa-whatsapp text-white text-2xl"></i>
+      <i class="fa-brands fa-twitter text-white text-2xl"></i>
+      <i class="fa-brands fa-linkedin text-white text-2xl"></i>
+      <i class="fa-brands fa-github text-white  text-2xl"></i>
+    </div>
+  </div>
+
+    <!-- 2 -->
+  <div class="flex flex-col space-y-5 ml-12 text-white">
+    <span>Home</span>
+    <span>About</span>
+    <span>Contact</span>
+  </div>
+  <div class="flex flex-col space-y-5 ml-12 text-white">
+    <span>Home</span>
+    <span>About</span>
+    <span>Contact</span>
+  </div>
+  <div class="ml-11">
+    <input class="px-2 py-3 rounded-full"></input>
+    <button class="bg-orange-500 p-2 rounded-3xl text-white hover:bg-gray-800 ml-3 transition-ll">Go</button>
+    <p class="text-white mt-10">Copyright © 2023, All Rights Reserved</p>
+
+  </div>
+</div>
+</section>
+  <!-- End Footer -->
+<script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+</body>
+</html>
